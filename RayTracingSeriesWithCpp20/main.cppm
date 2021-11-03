@@ -1,7 +1,9 @@
 import Renderer;
-import Renderer.Vec3;
+import <iostream>;
 int main(int argc, char* argv[]) {
-	render();
-	auto v = vec3{};
+	//renderer::render();
+	auto v1 = renderer::vec{2,3,1};
+	auto v2 = renderer::vec{ 1,1,1 };
+	std::cout << v1 + v2;
 	return 0;
 }
